@@ -158,3 +158,6 @@ var App = (
 
 ReactDOM.render(App, document.querySelector("#app"));
 ```
+>OUTPUT
+
+![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
