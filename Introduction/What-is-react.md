@@ -11,3 +11,5 @@
 - React is all about of using **Components** for building.
 
 - Like this,
+
+![Components](https://user-images.githubusercontent.com/64890185/121854756-32c6eb00-cd10-11eb-8348-743422febaf7.png)
