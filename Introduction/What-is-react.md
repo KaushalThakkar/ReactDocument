@@ -39,11 +39,7 @@
 
 ## Simple Program (without React)
 
-<<<<<<< HEAD
 >**HTML**
-=======
->HTML
->>>>>>> 1420f60d52bd8f6cb5cb87aa2b1e4563f3b39e84
 ```html
 <div class="person">
   <h1>Kaushal</h1>
@@ -55,16 +51,10 @@
   <p>Your age : 28</p>
 </div>
 ```
-<<<<<<< HEAD
 >**CSS**
 ```css
 .person{
   display: inline-block;
-=======
->CSS
-```css
-.person{
->>>>>>> 1420f60d52bd8f6cb5cb87aa2b1e4563f3b39e84
   margin: 10px;
   border: 1px solid #eee;
   box-shadow: 0 2px 2px #ccc;
@@ -75,7 +65,6 @@
 >OUTPUT
 
 ![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
-
 
 ## With React
 
