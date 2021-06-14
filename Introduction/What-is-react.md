@@ -33,9 +33,34 @@
 - Reactjs used a special syntax called **JSX** which makes writing js easier.
 
 - **Reactjs is focus on logic.**
-<<<<<<< HEAD
-
 
 # How to use React Js?
 
 ## Simple Program (without React)
+
+>HTML
+```html
+<div class="person">
+  <h1>Kaushal</h1>
+  <p>Your age : 25</p>
+</div>
+
+<div class="person">
+  <h1>Jack</h1>
+  <p>Your age : 28</p>
+</div>
+```
+>CSS
+```css
+.person{
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+}
+```
+![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
+
+
+
