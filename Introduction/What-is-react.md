@@ -13,3 +13,23 @@
 - Like this,
 
 ![Components](https://user-images.githubusercontent.com/64890185/121854756-32c6eb00-cd10-11eb-8348-743422febaf7.png)
+
+- React components can we call of Custome HTML elements.
+
+
+
+
+
+# Why use Reacet Js?
+
+- the coew objective of React JS is providing the bast possible rendering performance.
+
+- It's strength comes form the focus on **Individul Components.**
+
+- In stead of working on the entire web app ReactJS allows a developer to brack down the comlex UI into simpler components.
+
+- Reactjs is definitely good for the web development and give better performance then all other JS language like Angular, Vue.js, Ember etc.
+
+- Reactjs used a special syntax called **JSX** which makes writing js easier.
+
+- **Reactjs is focus on logic.**
