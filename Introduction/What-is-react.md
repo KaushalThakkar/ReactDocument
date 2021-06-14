@@ -40,4 +40,4 @@
 
 ## Simple Program (without React)
 
-![WithoutReact](https://user-images.githubusercontent.com/64890185/121867332-7aa03f00-cd1d-11eb-8b0c-8726cde1f28c.png)
+![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
