@@ -15,10 +15,10 @@
 ![Components](https://user-images.githubusercontent.com/64890185/121854756-32c6eb00-cd10-11eb-8348-743422febaf7.png)
 
 - React components can we call of Custome HTML elements.
-
-
-
-
+ 
+ 
+ 
+ 
 
 # Why use Reacet Js?
 
@@ -33,7 +33,6 @@
 - Reactjs used a special syntax called **JSX** which makes writing js easier.
 
 - **Reactjs is focus on logic.**
-<<<<<<< HEAD
 
 
 # How to use React Js?
