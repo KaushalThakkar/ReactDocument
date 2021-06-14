@@ -34,11 +34,12 @@
 
 - **Reactjs is focus on logic.**
 
+
 # How to use React Js?
 
 ## Simple Program (without React)
 
->HTML
+>**HTML**
 ```html
 <div class="person">
   <h1>Kaushal</h1>
@@ -50,9 +51,10 @@
   <p>Your age : 28</p>
 </div>
 ```
->CSS
+>**CSS**
 ```css
 .person{
+  display: inline-block;
   margin: 10px;
   border: 1px solid #eee;
   box-shadow: 0 2px 2px #ccc;
@@ -60,7 +62,89 @@
   padding: 20px;
 }
 ```
+>OUTPUT
+
 ![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
 
 
+## With React
 
+>**HTML**
+```html
+<div id="p1"></div>
+
+<div class="person">
+  <h1>Jack</h1>
+  <p>Your age : 28</p>
+</div>
+```
+>**CSS**
+```css
+.person{
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+}
+```
+>**JS** (Add react 16.0.1, reactDOM 16.0.1 & Bable Preprocessor)
+```js
+function Person(){
+  return( 
+    <div class="person">
+      <h1>Kaushal</h1>
+      <p>Your Age: 25</p>
+    </div>
+  );
+}
+
+ReactDOM.render(<Person/>, document.querySelector("#p1"));
+```
+- **But , here 2 or more "Div" teg so, using props let see...**
+
+>**HTML**
+```html
+<div id="p1"></div>
+
+<div id="p2"></div>
+```
+>**JS** (Add react 16.0.1, reactDOM 16.0.1 & Bable Preprocessor)
+```js
+function Person(props){
+  return( 
+    <div class="person">
+        <h1>{props.name}</h1>
+        <p>{props.age}</p>
+    </div>
+  );
+}
+
+ReactDOM.render(<Person name="Kaushal" age="Your Age: 25"/>, document.querySelector("#p1"));
+ReactDOM.render(<Person name="Jack" age="Your Age: 28"/>, document.querySelector("#p2"));
+```
+- Here using 2 "Div" tags on html page. so, how to create in singal "Div" tag. Lets, see...
+
+ >**HTML**
+```html
+<div id="app"></div>
+```
+>**JS** (Add react 16.0.1, reactDOM 16.0.1 & Bable Preprocessor)
+```js
+function Person(props){
+  return( <div class="person">
+      <h1>{props.name}</h1>
+      <p>{props.age}</p>
+    </div>
+  );
+}
+var App = (
+  <div>
+    <Person name="Kaushal" age="Your Age: 25"/>
+    <Person name="Jack" age="Your Age: 28"/>
+  </div>
+);
+
+ReactDOM.render(App, document.querySelector("#app"));
+```
