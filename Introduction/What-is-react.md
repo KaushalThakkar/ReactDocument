@@ -123,7 +123,7 @@ function Person(props){
 ReactDOM.render(<Person name="Kaushal" age="Your Age: 25"/>, document.querySelector("#p1"));
 ReactDOM.render(<Person name="Jack" age="Your Age: 28"/>, document.querySelector("#p2"));
 ```
-- Here using 2 "Div" tags on html page. so, how to create in singal "Div" tag. Lets, see...
+- **Here using 2 "Div" tags on html page. so, how to create in singal "Div" tag. Lets, see...**
 
  >**HTML**
 ```html
@@ -150,3 +150,6 @@ ReactDOM.render(App, document.querySelector("#app"));
 >OUTPUT
 
 ![WithoutReactOutput](https://user-images.githubusercontent.com/64890185/121868746-f9e24280-cd1e-11eb-9b28-9261e81447a4.png)
+
+
+- **Now learn about a ES6 ( ECMAScript ).**
