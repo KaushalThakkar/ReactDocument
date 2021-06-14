@@ -16,13 +16,9 @@
 
 - React components can we call of Custome HTML elements.
  
- 
- 
- 
-
 # Why use Reacet Js?
 
-- the coew objective of React JS is providing the bast possible rendering performance.
+- The coew objective of React JS is providing the bast possible rendering performance.
 
 - It's strength comes form the focus on **Individul Components.**
 
@@ -34,6 +30,8 @@
 
 - **Reactjs is focus on logic.**
 
+- **9699** companies reportedly use **React** in their tech stacks, including **Uber, Netflix,** and **Facebook.**
+![WhoUseReact](https://user-images.githubusercontent.com/64890185/121889035-543acd80-cd36-11eb-99e0-3fc42a69e19e.png)
 
 # How to use React Js?
 
