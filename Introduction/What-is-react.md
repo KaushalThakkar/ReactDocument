@@ -33,7 +33,9 @@
 - Reactjs used a special syntax called **JSX** which makes writing js easier.
 
 - **Reactjs is focus on logic.**
+<<<<<<< HEAD
 
 
 # How to use React Js?
 
+## Simple Program (without React)
