@@ -144,3 +144,9 @@ const multiply = number => number * 2;
 console.log (multiply (2));
 ```
 - This is a very short version of writing this function.
+
+
+# 3. Exports & Imports
+
+![Imports   Export](https://user-images.githubusercontent.com/64890185/122013495-d9c48900-cddb-11eb-8f41-3a40c35a8e22.png)
+
