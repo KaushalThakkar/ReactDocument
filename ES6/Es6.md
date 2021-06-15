@@ -124,7 +124,7 @@ const myname = () => {          // When No any Argument.
 - If two or more arguments, that time using this syntax.
 ```
 const myname = (name,age) => {           // Without brecakets when only one arg.
-    console.log(name);  
+    console.log(name,age);  
 }
 myname('Jack',25);
 ```
