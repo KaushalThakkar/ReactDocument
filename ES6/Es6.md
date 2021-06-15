@@ -122,3 +122,25 @@ const myname = () => {          // When No any Argument.
 }
 ```
 - If two or more arguments, that time using this syntax.
+```
+const myname = (name,age) => {           // Without brecakets when only one arg.
+    console.log(name);  
+}
+myname('Jack',25);
+```
+
+- Now, run with using return function.
+```
+const multiply = (number) => {           //You also write Without brecakets.
+    return number * 2;
+}
+console.log (multiply (2));
+```
+
+- In this case you write in **Singal line.**
+```
+const multiply = number => number * 2;
+
+console.log (multiply (2));
+```
+- This is a very short version of writing this function.
