@@ -148,5 +148,4 @@ console.log (multiply (2));
 
 # 3. Exports & Imports
 
-![Imports   Export](https://user-images.githubusercontent.com/64890185/122013495-d9c48900-cddb-11eb-8f41-3a40c35a8e22.png)
-
+![Imports   Export](https://user-images.githubusercontent.com/64890185/122013750-1abc9d80-cddc-11eb-9e2b-3474fc678892.png)
