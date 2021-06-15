@@ -67,3 +67,58 @@ Kaushal
 
 !!! Error (TypeError: Assignment to constant variable.)
 ```
+
+
+# 2. Arrow Function 
+
+- That is a different syntax for creating JavaScript function.
+
+- A normal Js function looks like this, `function fn(){____}` .
+
+- Now arrow function looks like this, `const myfn = () => {_____}` .
+
+## Example
+###### Nromal
+>JS
+```js
+function printname(name)
+{
+    console.log(name);
+}
+printname('Kaushal');
+```
+>Output (In Console)
+```
+Kaushal
+```
+
+###### With Arrow function
+>JS
+```js
+const printname = (name) => {
+
+    console.log(name);
+}
+printname('Kaushal');
+```
+>Output (In Console)
+```
+Kaushal
+```
+
+- Now the this keyword thing is somwthing you will see throughout call of the course.
+
+```
+const myname = name => {           // Without brecakets when only one arg.
+    console.log(name);  
+}
+```
+
+- That's only valid for **exactly one argument** though, not for more and for less.
+
+```
+const myname = () => {          // When No any Argument.
+    console.log('Kaushal');
+}
+```
+- If two or more arguments, that time using this syntax.
