@@ -156,3 +156,88 @@ console.log (multiply (2));
 
 - A class is created with thw class keyword and a class can have both properties and methods.
 
+![calss](https://user-images.githubusercontent.com/64890185/122250375-3b254e80-cee7-11eb-8e65-908d3fcb4719.png)
+
+## Example
+
+```
+class person{
+    constructor(){
+        this.name = 'Jack';
+    }
+    PrintMyName(){
+        console.log(this.name);
+    }
+}
+const person = new Person();
+persone.printMyName();
+```
+
+>Output (In Console)
+```
+Jack
+```
+- This is simple example of class.
+
+- Let's show with inheritance
+```
+class Human{
+    cunstructor(){
+        this.gender = "male";
+    }
+    PrintGender(){
+        console.log(this.gender);
+    }
+}
+class Person extend Human{
+    cunstructor(){
+        super();
+        this.name = 'Jack';
+        this.name = 'female';
+    }
+    PrintMy Name(){
+        console.log(this.name);
+    }
+}
+
+const Person = new Person();
+Person.printMyName();
+Person.printGender();
+```
+>Output (In Console)
+```
+Jack
+female
+```
+
+- But, THis is simple Javascript. So, how in Next generation JS (ES6) syntax.
+
+- Here show Next generation JS (ES6) syntax use class syntax.
+
+```
+class Human{
+    gender = 'male';
+
+    PrintGender = () => {
+        console.log(this.gender);
+    }
+}
+
+class person extends Human{
+    name = 'Jack';
+    gender = 'female';
+
+    PrintMyName = () => {
+        console.log(this.name);
+    }
+}
+const Person = new Person();
+Person.PrintMyName();
+Person.PrintGender();
+```
+>Output (In Console)
+```
+Jack
+female
+```
+- **No cunstructor, No super keyword, No this keyword. It's ES6 syntax for class.**
