@@ -124,7 +124,7 @@ const myname = () => {          // When No any Argument.
 - If two or more arguments, that time using this syntax.
 ```
 const myname = (name,age) => {           // Without brecakets when only one arg.
-    console.log(name);  
+    console.log(name,age);  
 }
 myname('Jack',25);
 ```
@@ -144,3 +144,15 @@ const multiply = number => number * 2;
 console.log (multiply (2));
 ```
 - This is a very short version of writing this function.
+
+
+# 3. Exports & Imports
+
+![Imports   Export](https://user-images.githubusercontent.com/64890185/122013750-1abc9d80-cddc-11eb-9e2b-3474fc678892.png)
+
+
+# 4. Classes
+
+- Classesare essentially  (basically) blueprint for object.
+
+- A class is created with thw class keyword and a class can have both properties and methods.
