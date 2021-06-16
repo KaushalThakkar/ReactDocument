@@ -152,21 +152,21 @@ console.log (multiply (2));
 
 # 4. Classes
 
-- Classesare essentially  (basically) blueprint for object.
+- Classes are essentially  (basically) blueprint for object.
 
-- A class is created with thw class keyword and a class can have both properties and methods.
+- A class is created with the class keyword and a class can have both properties and methods.
 
 ![calss](https://user-images.githubusercontent.com/64890185/122250375-3b254e80-cee7-11eb-8e65-908d3fcb4719.png)
-<<<<<<< HEAD
+
 
 ## Example
 
-```
-class person{
+```javascript
+class Person{
     constructor(){
         this.name = 'Jack';
     }
-    PrintMyName(){
+    printMyName(){
         console.log(this.name);
     }
 }
@@ -175,18 +175,18 @@ persone.printMyName();
 ```
 
 >Output (In Console)
-```
+```javascript
 Jack
 ```
 - This is simple example of class.
 
-- Let's show with inheritance
-```
+- Let's show with inheritance. 
+```javascript
 class Human{
     cunstructor(){
         this.gender = "male";
     }
-    PrintGender(){
+    printGender(){
         console.log(this.gender);
     }
 }
@@ -196,30 +196,30 @@ class Person extend Human{
         this.name = 'Jack';
         this.name = 'female';
     }
-    PrintMy Name(){
+    printMyName(){
         console.log(this.name);
     }
 }
 
-const Person = new Person();
-Person.printMyName();
-Person.printGender();
+const person = new Person();
+person.printMyName();
+person.printGender();
 ```
 >Output (In Console)
-```
+```javascript
 Jack
 female
 ```
 
-- But, THis is simple Javascript. So, how in Next generation JS (ES6) syntax.
+- But, this is simple Javascript. So, how in Next generation JS (ES6) syntax.
 
 - Here show Next generation JS (ES6) syntax use class syntax.
 
-```
+```javascript
 class Human{
     gender = 'male';
 
-    PrintGender = () => {
+    printGender = () => {
         console.log(this.gender);
     }
 }
@@ -228,16 +228,16 @@ class person extends Human{
     name = 'Jack';
     gender = 'female';
 
-    PrintMyName = () => {
+    printMyName = () => {
         console.log(this.name);
     }
 }
-const Person = new Person();
-Person.PrintMyName();
-Person.PrintGender();
+const person = new Person();
+person.printMyName();
+person.printGender();
 ```
 >Output (In Console)
-```
+```javascript
 Jack
 female
 ```
