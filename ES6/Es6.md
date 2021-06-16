@@ -242,5 +242,3 @@ Jack
 female
 ```
 - **No cunstructor, No super keyword, No this keyword. It's ES6 syntax for class.**
-=======
->>>>>>> 39238d03300f3fd6d00430b141454523bd4a4c7b
