@@ -150,9 +150,9 @@ console.log (multiply (2));
 
 ![Imports   Export](https://user-images.githubusercontent.com/64890185/122013750-1abc9d80-cddc-11eb-9e2b-3474fc678892.png)
 
-
 # 4. Classes
 
 - Classesare essentially  (basically) blueprint for object.
 
 - A class is created with thw class keyword and a class can have both properties and methods.
+
