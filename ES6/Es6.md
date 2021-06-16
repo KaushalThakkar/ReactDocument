@@ -156,3 +156,4 @@ console.log (multiply (2));
 
 - A class is created with thw class keyword and a class can have both properties and methods.
 
+![calss](https://user-images.githubusercontent.com/64890185/122250375-3b254e80-cee7-11eb-8e65-908d3fcb4719.png)
