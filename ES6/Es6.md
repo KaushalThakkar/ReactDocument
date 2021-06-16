@@ -171,7 +171,7 @@ class Person{
     }
 }
 const person = new Person();
-persone.printMyName();
+person.printMyName();
 ```
 
 >Output (In Console)
@@ -183,18 +183,18 @@ Jack
 - Let's show with inheritance. 
 ```javascript
 class Human{
-    cunstructor(){
+    constructor(){
         this.gender = "male";
     }
     printGender(){
         console.log(this.gender);
     }
 }
-class Person extend Human{
-    cunstructor(){
+class Person extends Human {
+    constructor(){
         super();
         this.name = 'Jack';
-        this.name = 'female';
+        this.gender = 'female';
     }
     printMyName(){
         console.log(this.name);
@@ -217,14 +217,15 @@ female
 
 ```javascript
 class Human{
-    gender = 'male';
+  
+    gender='male';
 
     printGender = () => {
         console.log(this.gender);
     }
 }
 
-class person extends Human{
+class Person extends Human{
     name = 'Jack';
     gender = 'female';
 
@@ -235,10 +236,11 @@ class person extends Human{
 const person = new Person();
 person.printMyName();
 person.printGender();
+
 ```
 >Output (In Console)
 ```javascript
 Jack
 female
 ```
-- **No cunstructor, No super keyword, No this keyword. It's ES6 syntax for class.**
+- **No constructor, No super keyword, No this keyword. It's ES6 syntax for class.**
