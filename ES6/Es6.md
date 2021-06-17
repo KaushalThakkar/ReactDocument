@@ -150,6 +150,45 @@ console.log (multiply (2));
 
 ![Imports   Export](https://user-images.githubusercontent.com/64890185/122013750-1abc9d80-cddc-11eb-9e2b-3474fc678892.png)
 
+## Example
+
+>Util.js
+```javascript
+const getName = (user) => {
+  return user.name;
+}
+const getPhone = (user) => {
+  return user.Phone;
+}
+
+const getAddress = (user) => {
+  return  user.getAdddress();
+}
+
+export getName;
+export getPhone;
+export default getAddress;
+```
+- You can also write like this...
+```javascript
+export const getName = (user) => {
+  return user.name;
+}
+export const getPhone = (user) => {
+  return user.Phone;
+}
+
+export default const getAddress = (user) => {
+  return  user.getAdddress();
+}
+```
+>App.js
+```javascript
+import Kaushal from 'util'; // Will still points to the default export, regardless of reference name.
+import {getName, getPhone} from 'util'; // Will points to getName and the name should be precise.
+```
+
+
 # 4. Classes
 
 - Classes are essentially  (basically) blueprint for object.
@@ -157,7 +196,6 @@ console.log (multiply (2));
 - A class is created with the class keyword and a class can have both properties and methods.
 
 ![calss](https://user-images.githubusercontent.com/64890185/122250375-3b254e80-cee7-11eb-8e65-908d3fcb4719.png)
-
 
 ## Example
 
@@ -170,10 +208,9 @@ class Person{
         console.log(this.name);
     }
 }
-const person = new Person();
+con     st person = new Person();
 person.printMyName();
 ```
-
 >Output (In Console)
 ```javascript
 Jack
@@ -181,6 +218,7 @@ Jack
 - This is simple example of class.
 
 - Let's show with inheritance. 
+
 ```javascript
 class Human{
     constructor(){
@@ -206,14 +244,14 @@ person.printMyName();
 person.printGender();
 ```
 >Output (In Console)
-```javascript
+```
 Jack
 female
 ```
 
-- But, this is simple Javascript. So, how in Next generation JS (ES6) syntax.
+- But, this is simple Javascript. So, how to use class through next generation JS (ES6) syntax.
 
-- Here show Next generation JS (ES6) syntax use class syntax.
+- Below is the example of class in next generation JS (ES6) syntax.
 
 ```javascript
 class Human{
@@ -239,7 +277,7 @@ person.printGender();
 
 ```
 >Output (In Console)
-```javascript
+```
 Jack
 female
 ```
