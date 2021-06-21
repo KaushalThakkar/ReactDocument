@@ -282,3 +282,24 @@ Jack
 female
 ```
 - **No constructor, No super keyword, No this keyword. It's ES6 syntax for class.**
+
+
+# 5. Spread & Resr Operators
+ 
+ - Actually it's only operator three dots.  **`...`**
+
+**Spread :** Used to split up array elements OR objects properties. Like this,
+
+```
+const newArray = [...oldArray,1,2]
+const newObject = {...oldObject,newProps:5}
+````
+
+**Rest :** Used to merge a list of function arguments into an array. Like this,
+
+```
+function sortArgs(...args){
+    return args.sort();
+}
+````
+
