@@ -303,3 +303,40 @@ function sortArgs(...args){
 }
 ````
 
+##Example
+
+```js
+const numbers = [1,2,3];
+const newNumber = [...numbers, 4];
+
+console.log(newNumbers);
+```
+>Output 
+
+```
+[1,2,3,4]
+```
+ - without spread opreters output is,
+
+ ```
+ [[1,2,3],4]   
+ ```
+
+ - Let's show one more Example
+ ```js
+const person = {
+    name = 'Jack'
+};
+
+const newPerson = {
+    ...person,
+    age: 28
+}
+ ```
+
+ >Output
+
+ age : 28
+ name : 'Jack'.
+
+ - So, that is a spread Opretors,
