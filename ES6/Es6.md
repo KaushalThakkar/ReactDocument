@@ -284,7 +284,7 @@ female
 - **No constructor, No super keyword, No this keyword. It's ES6 syntax for class.**
 
 
-# 5. Spread & Resr Operators
+# 5. Spread & Rest Operators
  
  - Actually it's only operator three dots.  **`...`**
 
@@ -335,8 +335,86 @@ const newPerson = {
  ```
 
  >Output
-
+```
  age : 28
  name : 'Jack'.
+```
 
- - So, that is a spread Opretors,
+ - So, that is a spread Opretors.
+
+ - Lets, show Rest operators example.
+ ```js
+ const test = (...xx) => {
+     return xx.filter(xy => xy === 2);
+ }
+ console.log(test(1,2,3));
+ ```
+ >Output
+ ```
+ [2]
+ ```
+
+ - Let's see one more Example
+```js
+ const words = ['Sprtay','Limit', 'elite','exuberant','destrution','present'];
+ const result = word.filter(word => )
+ 
+ console.log(result);
+ ```
+ >Output
+```
+ ["exuberant","destrution","present"]
+ ```
+
+# 6. Destructuring
+
+- Easily extract array Elements or object properties and store in variables,
+
+- for...
+
+## Array Destructuring
+
+```js
+[a,b] = ['Hello', 'Kaushal']
+console.log(a)     // Hello
+console.log(b)     // Kaushal
+```
+
+## Object Destructuring
+
+```js
+[a,b] = ['Hello', 'Kaushal']
+console.log(a)     // Hello
+console.log(b)     // Kaushal
+```
+###### Example
+
+```js
+const numbers = [1,2,3];
+[num1, num2] = nmbers;
+
+console.log(num1, num3);
+
+// Output : 1 3
+```
+- Object Destructuring is not supported by jsbin.
+
+# 7. Array function
+
+```js
+const numbers = [1,2,3];    // Normal array
+
+const newarray = number.map(num) => {   // Map is a builtin Array method , all the returns a new array.
+
+    return num *2;
+}
+
+console.log(numbers);
+console.log(newarray);
+```
+>Output
+```
+[1,2,3]
+
+[2,4,6]
+```
