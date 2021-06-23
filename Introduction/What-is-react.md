@@ -1,14 +1,14 @@
 # What is React?
 
-- React is one of the most popular and widely used **Libraries** (it's **Not** a **Framework**) for frontends development. To give you a gentle  introduction. 
+- React is one of the most popular and widely used **Libraries** (it's **not** a **Framework**) for frontends development. To give you a gentle introduction. 
 
-- React is an open sources js library used for frontend developement, which was developed by Jordan Walke a software Engineer at facebook.
+- React is the open-source js library used for frontend development, which was developed by Jordan Walke, a software engineer at Facebook.
 
 - "A Javascript library for building User Interface".
 
-- React app is run on the browser(client side), Don't run on the server.
+- React app is run on the browser (client-side), Don't run on the server.
 
-- React is all about of using **Components** for building.
+- React is all about using **Components** for building.
 
 - Like this,
 
