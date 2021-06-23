@@ -1,10 +1,10 @@
 # What is React?
 
-- React is one of the most popular and widely used **Libraries** (it's **Not** a **Framework**) for frontens development. To give you a gentle  introduction. 
+- React is one of the most popular and widely used **Libraries** (it's **Not** a **Framework**) for frontends development. To give you a gentle  introduction. 
 
-- React is an open sources js library used for fronted developement, which was developed by Jordan Walke a software Egineer at facebook.
+- React is an open sources js library used for frontend developement, which was developed by Jordan Walke a software Engineer at facebook.
 
-- "A Javascropt library for buildinguser Interface".
+- "A Javascript library for building User Interface".
 
 - React app is run on the browser(client side), Don't run on the server.
 
@@ -18,17 +18,17 @@
  
 # Why use Reacet Js?
 
-- The coew objective of React JS is providing the bast possible rendering performance.
+- The core objective of React JS is to provide the best possible rendering performance.
 
-- It's strength comes form the focus on **Individul Components.**
+- It's strength comes to form the focus on **Individual Components.**
 
-- In stead of working on the entire web app ReactJS allows a developer to brack down the comlex UI into simpler components.
+- Instead of working on the entire web app ReactJS allows a developer to break down the complex UI into simpler components.
 
-- Reactjs is definitely good for the web development and give better performance then all other JS language like Angular, Vue.js, Ember etc.
+- Reactjs is definitely good for web development and gives better performance than all other JS languages like Angular, Vue.js, Ember, etc.
 
 - Reactjs used a special syntax called **JSX** which makes writing js easier.
 
-- **Reactjs is focus on logic.**
+- **Reactjs is focusing on logic.**
 
 - **9699** companies reportedly use **React** in their tech stacks, including **Uber, Netflix,** and **Facebook.**
 ![WhoUseReact](https://user-images.githubusercontent.com/64890185/121889035-543acd80-cd36-11eb-99e0-3fc42a69e19e.png)
