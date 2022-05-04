@@ -121,7 +121,7 @@ function Person(props){
 ReactDOM.render(<Person name="Kaushal" age="Your Age: 25"/>, document.querySelector("#p1"));
 ReactDOM.render(<Person name="Jack" age="Your Age: 28"/>, document.querySelector("#p2"));
 ```
-- **Here using 2 "Div" tags on html page. so, how to create in singal "Div" tag. Lets, see...**
+- **Here using 2 render method. so, how to create in singal method. Lets, see...**
 
  >**HTML**
 ```html
